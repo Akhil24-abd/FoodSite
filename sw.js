@@ -5,6 +5,7 @@ self.addEventListener('install' , (event)=>{
     .then((Cache)=>{
         Cache.addAll([
             'https://akhil24-abd.github.io/foodwebsite/',
+            'https://akhil24-abd.github.io/foodwebsite/index.html',
             'https://akhil24-abd.github.io/foodwebsite/js/script.js',
             'https://akhil24-abd.github.io/foodwebsite/css/style.css',
             'https://akhil24-abd.github.io/foodwebsite/images/about-icon-1.png',
