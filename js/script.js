@@ -2,7 +2,7 @@ let navbar = document.querySelector('.header .navbar');
 let menuBtn = document.querySelector('#menu-btn');
 
 if("serviceWorker" in navigator){
-   navigator.serviceWorker.register("https://akhil24-abd.github.io/foodwebsite/sw.js")
+   navigator.serviceWorker.register("https://akhil24-abd.github.io/PWAWebApp/sw.js")
    .then(()=>{
       console.log("sw registered")
    })
